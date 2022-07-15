@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+body nav {
+  background-color: #5ba4a4;
+}
+
+body nav .bg-desktop {
+  width: 100%;
+}
+
+@media (max-width: 425px) {
+  body nav .bg-desktop {
+    display: none;
+  }
+}
+
+body nav .bg-mobile {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  body nav .bg-mobile {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  body nav .bg-mobile {
+    width: 105%;
+  }
+}
+
+body .input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1.5rem;
+}
+
+body .input-container h1 {
+  font-size: 45px;
+  margin-bottom: 1.2rem;
+  color: #2f6f6f;
+}
+
+body .input-container input {
+  width: 25rem;
+  height: 2rem;
+  border: 2px solid #5ba4a4;
+}
+
+@media (max-width: 375px) {
+  body .input-container input {
+    width: 22rem;
+  }
+}
+
+body .card {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+  width: 79%;
+  height: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem 7rem;
+}
+
+@media (max-width: 768px) {
+  body .card {
+    width: 86%;
+    margin: 1rem 4rem;
+  }
+}
+
+@media (max-width: 425px) {
+  body .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 10rem;
+    width: 92%;
+    margin: 2rem 0.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  body .card {
+    width: 98%;
+    margin: 2rem 0rem;
+  }
+}
+
+body .card .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 425px) {
+  body .card .left {
+    margin-left: -3rem;
+  }
+}
+
+body .card .left .img-div img {
+  width: 54%;
+  margin-left: 2rem;
+}
+
+body .card .left .text .top-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5rem -0.2rem;
+}
+
+body .card .left .text .top-div .company-name {
+  font-size: 13px;
+  color: #5ba4a4;
+  margin-right: 0.4rem;
+}
+
+body .card .left .text .top-div .tag-1 {
+  border-radius: 25px;
+  background: #5ba4a4;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  margin: 0 0.2rem;
+}
+
+body .card .left .text .top-div .tag-2 {
+  border-radius: 25px;
+  background: #2c3a3a;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  margin: 0 0.2rem;
+}
+
+body .card .left .text .bottom-div {
+  margin: 0.5rem 0;
+}
+
+body .card .left .text .bottom-div span {
+  color: #ababab;
+  font-size: 13px;
+  margin: 0 0.3rem;
+}
+
+body .card .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 1.5rem;
+}
+
+@media (max-width: 425px) {
+  body .card .right {
+    margin: 2rem 0;
+  }
+}
+
+body .card .right .style {
+  margin: 0 0.4rem;
+  padding: 0.5rem 1rem;
+  font-size: 13px;
+  background-color: #effafa;
+  color: #2f6f6f;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=style.css.map */
